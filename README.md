@@ -1,2 +1,1 @@
-# clearvision.github.io
-ClearVision website
+# ClearVision Website
