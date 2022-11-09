@@ -29,7 +29,7 @@
 // VARIABLES
 $main-colors: #e62727, #e67a27, #33e627, #2780e6, #da27e6;
 $hover-colors: #b31e1e, #b35d1e, #2ab31e, #1e63b3, #a71eb3;
-$images: "/images/ruby.jpg", "/images/amber.jpg", "/images/emerald.jpg", "/images/sapphire.jpg", "/images/amethyst.jpg";
+$images: "/images/wolf1.jpg";
 $animation-duration: 50s;
 
 // GENERAL
@@ -55,7 +55,7 @@ body {
     }
     @include pseudo(after) {
         @include prefix(animation, images1 2 * $animation-duration infinite);
-        background-image: url({{site.baseurl}}/images/ruby.jpg);
+        background-image: url({{site.baseurl}}/images/wolf1.jpg);
         z-index: -9999;
     }
     @include pseudo(before) {
@@ -376,124 +376,124 @@ body {
 @include cycle-keyframes((main: $main-colors, hover: $hover-colors));
 @include keyframes(images1) {
     0% {
-        background-image: url({{site.baseurl}}/images/amber.jpg);
+        background-image: url({{site.baseurl}}/images/wolf1.jpg);
         opacity: 0;
     }
     10% {
         opacity: 1;
     }
     19% {
-        background-image: url({{site.baseurl}}/images/amber.jpg);
+        background-image: url({{site.baseurl}}/images/wolf1.jpg);
         opacity: 0;
     }
     20% {
-        background-image: url({{site.baseurl}}/images/sapphire.jpg);
+        background-image: url({{site.baseurl}}/images/wolf1.jpg);
         opacity: 0;
     }
     30% {
         opacity: 1;
     }
     39% {
-        background-image: url({{site.baseurl}}/images/sapphire.jpg);
+        background-image: url({{site.baseurl}}/images/wolf1.jpg);
         opacity: 0;
     }
     40% {
-        background-image: url({{site.baseurl}}/images/ruby.jpg);
+        background-image: url({{site.baseurl}}/images/wolf1.jpg);
         opacity: 0;
     }
     50% {
         opacity: 1;
     }
     59% {
-        background-image: url({{site.baseurl}}/images/ruby.jpg);
+        background-image: url({{site.baseurl}}/images/wolf1.jpg);
         opacity: 0;
     }
     60% {
-        background-image: url({{site.baseurl}}/images/emerald.jpg);
+        background-image: url({{site.baseurl}}/images/wolf1.jpg);
         opacity: 0;
     }   
     70% {
         opacity: 1;
     }   
     79% {
-        background-image: url({{site.baseurl}}/images/emerald.jpg);
+        background-image: url({{site.baseurl}}/images/wolf1.jpg);
         opacity: 0;
     }   
     80% {
-        background-image: url({{site.baseurl}}/images/amethyst.jpg);
+        background-image: url({{site.baseurl}}/images/wolf1.jpg);
         opacity: 0;
     }   
     90% {
         opacity: 1;
     }   
     99% {
-        background-image: url({{site.baseurl}}/images/amethyst.jpg);
+        background-image: url({{site.baseurl}}/images/wolf1.jpg);
         opacity: 0;
     }
     100% {
-        background-image: url({{site.baseurl}}/images/amber.jpg);
+        background-image: url({{site.baseurl}}/images/wolf1.jpg);
         opacity: 0;
     }
 }
 @include keyframes(images2) {
     0% {
-        background-image: url({{site.baseurl}}/images/ruby.jpg);
+        background-image: url({{site.baseurl}}/images/wolf1.jpg);
         opacity: 1;
     }
     9% {
-        background-image: url({{site.baseurl}}/images/ruby.jpg);
+        background-image: url({{site.baseurl}}/images/wolf1.jpg);
         opacity: 0;
     }
     10% {
-        background-image: url({{site.baseurl}}/images/emerald.jpg);
+        background-image: url({{site.baseurl}}/images/wolf1.jpg);
         opacity: 0;
     }
     20% {
         opacity: 1;
     }
     29% {
-        background-image: url({{site.baseurl}}/images/emerald.jpg);
+        background-image: url({{site.baseurl}}/images/wolf1.jpg);
         opacity: 0;
     }
     30% {
-        background-image: url({{site.baseurl}}/images/amethyst.jpg);
+        background-image: url({{site.baseurl}}/images/wolf1.jpg);
         opacity: 0;
     }
     40% {
         opacity: 1;
     }
     49% {
-        background-image: url({{site.baseurl}}/images/amethyst.jpg);
+        background-image: url({{site.baseurl}}/images/wolf1.jpg);
         opacity: 0;
     }
     50% {
-        background-image: url({{site.baseurl}}/images/amber.jpg);
+        background-image: url({{site.baseurl}}/images/wolf1.jpg);
         opacity: 0;
     }
     60% {
         opacity: 1;
     }
     69% {
-        background-image: url({{site.baseurl}}/images/amber.jpg);
+        background-image: url({{site.baseurl}}/images/wolf1.jpg);
         opacity: 0;
     }   
     70% {
-        background-image: url({{site.baseurl}}/images/sapphire.jpg);
+        background-image: url({{site.baseurl}}/images/wolf1.jpg);
         opacity: 0;
     }   
     80% {
         opacity: 1;
     }   
     89% {
-        background-image: url({{site.baseurl}}/images/sapphire.jpg);
+        background-image: url({{site.baseurl}}/images/wolf1.jpg);
         opacity: 0;
     }   
     90% {
-        background-image: url({{site.baseurl}}/images/ruby.jpg);
+        background-image: url({{site.baseurl}}/images/wolf1.jpg);
         opacity: 0;
     }   
     100% {
-        background-image: url({{site.baseurl}}/images/ruby.jpg);
+        background-image: url({{site.baseurl}}/images/wolf1.jpg);
         opacity: 1;
     }
 }
