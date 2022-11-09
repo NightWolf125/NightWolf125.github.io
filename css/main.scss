@@ -60,7 +60,7 @@ body {
     }
     @include pseudo(before) {
         @include prefix(animation, images2 2 * $animation-duration infinite);
-        background-image: url({{site.baseurl}}/images/ruby.jpg);
+        background-image: url({{site.baseurl}}/images/wolf1.jpg);
         z-index: -9998;
     }
 }
