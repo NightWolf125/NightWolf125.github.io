@@ -1,4 +1,4 @@
-// Mixin Collection by Zerthox
+// Mixin Collection by Night Wolf
 @mixin prefix($property, $value...) {
 	$p: if(length(prefixes) == 0, $prefixes, (webkit, moz, ms, o));
 	@if type-of($property) == map {
